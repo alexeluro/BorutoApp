@@ -11,4 +11,8 @@ object Constants {
         const val HERO_REMOTE_KEY_DATABASE_TABLE = "hero_remote_key_table"
     }
 
+    object Database {
+        const val DATABASE_NAME = "boruto_database"
+    }
+
 }

@@ -42,7 +42,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.5"
     }
     packaging {
         resources {
@@ -77,6 +77,7 @@ dependencies {
     val room_version = "2.4.3"
     implementation("androidx.room:room-runtime:$room_version")
     implementation("androidx.room:room-ktx:$room_version")
+    implementation("androidx.room:room-paging:$room_version")
     implementation("androidx.compose.runtime:runtime-livedata:1.2.1")
     annotationProcessor("androidx.room:room-compiler:$room_version")
     kapt("androidx.room:room-compiler:$room_version")
@@ -86,6 +87,14 @@ dependencies {
     implementation("androidx.paging:paging-runtime:$paging_version")
     testImplementation("androidx.paging:paging-common:$paging_version")
     implementation("androidx.paging:paging-compose:3.3.0-alpha02")
+
+    // Dagger-Hilt
+    implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
+    implementation("androidx.hilt:hilt-work:1.0.0")
+    kapt("androidx.hilt:hilt-compiler:1.0.0")
+
+    // WorkManager
+    implementation("androidx.work:work-runtime-ktx:2.7.0")
 
 
 
