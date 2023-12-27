@@ -11,6 +11,12 @@ object Constants {
         const val HERO_REMOTE_KEY_DATABASE_TABLE = "hero_remote_key_table"
     }
 
+    object DataStore {
+        const val LAST_ONBOARDING_PAGE = 2
+        const val  PREFERENCES_NAME = "boruto_pref"
+        const val   PREFERENCES_KEY = "on_boarding_completed"
+    }
+
     object Database {
         const val DATABASE_NAME = "boruto_database"
     }

@@ -51,7 +51,7 @@ fun Splash(degree: Float) {
         ) {
             Image(
                 modifier = Modifier.rotate(degree),
-                painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                painter = painterResource(id = R.drawable.ic_logo),
                 contentDescription = "App Logo"
             )
         }
@@ -64,7 +64,7 @@ fun Splash(degree: Float) {
         ) {
             Image(
                 modifier = Modifier.rotate(degree),
-                painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                painter = painterResource(id = R.drawable.ic_logo),
                 contentDescription = "App Logo"
             )
         }
